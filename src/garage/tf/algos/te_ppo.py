@@ -99,7 +99,6 @@ class TEPPO(TENPO):
                          center_adv=center_adv,
                          positive_adv=positive_adv,
                          fixed_horizon=fixed_horizon,
-                         pg_loss='surrogate_clip',
                          lr_clip_range=lr_clip_range,
                          max_kl_step=max_kl_step,
                          optimizer=optimizer,
