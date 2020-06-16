@@ -95,7 +95,7 @@ class CategoricalCNNModel(Model):
             list[str]: Name of the model outputs, in order.
 
         """
-        return self._mlp_model.network_output_spec
+        return self._mlp_model.network_output_spec()
 
     # pylint: disable=arguments-differ
     def _build(self, state_input, name=None):
